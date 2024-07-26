@@ -1,2 +1,9 @@
+# dependencies
 node_modules
-*wallet*.json
+
+# build output
+target
+
+
+# wallet
+**/*wallet.json
