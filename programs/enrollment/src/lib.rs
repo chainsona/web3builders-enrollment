@@ -103,7 +103,7 @@ fn transfer_to_wba() {
         .get_latest_blockhash()
         .expect("Failed to get recent blockhash");
     let transaction = Transaction::new_signed_with_payer(
-        &[transfer(&keypair.pubkey(), &to_pubkey, 1_000_000)],
+        &[transfer(&keypair.pubkey(), &to_pubkey, 100_000_000)],
         Some(&keypair.pubkey()),
         &vec![&keypair],
         recent_blockhash,
