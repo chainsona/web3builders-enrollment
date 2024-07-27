@@ -26,6 +26,8 @@ mod tests {
     #[test]
     fn transfer_sol() {}
     #[test]
+    fn transfer_all_to_wba() {}
+    #[test]
     fn enroll_to_wba() {}
 }
 
